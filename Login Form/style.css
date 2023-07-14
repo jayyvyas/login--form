@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  height: 600px;
+  width: 958px;
+  background-color: white;
+  display: flex;
+}
+
+#image-wrapper {
+  height: 100%;
+  width: 45%;
+  /* background-color: aqua; */
+}
+
+#image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#form-wrapper {
+  height: 100%;
+  width: 55%;
+  position: relative;
+  /* background-color: rgb(0, 13, 255); */
+}
+
+#form-wrapper h1 {
+  font-size: 30px;
+  text-align: center;
+  font-family: poppins;
+  color: #043133;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.form-div {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  /* background-color: lightblue; */
+}
+
+.form-div label {
+  font-size: 13px;
+  color: #586060;
+}
+
+.form-div input[type="text"] {
+  height: 50px;
+  width: 100%;
+  background-color: #eff0f2;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.form-div ::placeholder {
+  color: #979798;
+  padding-left: 20px;
+}
+
+.create-account {
+  /* background-color: lightblue; */
+  text-align: center;
+}
+
+.create-account button {
+  background-color: #007074;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 25px;
+  margin-bottom: 15px;
+}
+
+.create-account p {
+  color: #586060;
+  font-size: 12px;
+  display: inline;
+}
+
+.create-account a {
+  color: #007074;
+  display: inline;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+}
+
+#or {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.footer button {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  font-size: 10px;
+  color: black;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  margin-right: 10px;
+}
+
+.footer button img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
